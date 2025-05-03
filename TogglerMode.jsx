@@ -53,7 +53,7 @@ function TogglerMode() {
     width: '26px',
     left: isLight ? '4px' : '30px',
     bottom: '4px',
-    backgroundColor: '#fff',
+    backgroundColor: isLight ? '#fff' : '#333',
     borderRadius: '50%',
     transition: '.4s',
     display: 'flex',
